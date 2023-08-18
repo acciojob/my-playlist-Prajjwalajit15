@@ -1,27 +1,41 @@
 /*  your css code here. If applicable */
 *{
-	background-color: #cccccc;
+	background-color: rgb(204, 204, 204);
 }
-a{
-	text-decoration: none;
-    color: black;
-	background-color: white;
-} 
-.player_one{    
-	border: 1px solid black;
-    border-radius: 10px;
-    background-color: white;
-    padding: 20px;
-    cursor: pointer;
-	
+.heading{
+	text-align:center;
 }
-
+#navbar{
+	background-color:white;
+	border-style:solid;
+	border-width:1px;
+	font-color:black;
+}
+ 
+li{
+	list-style: none ; 
+	background-color:white; 
+}
+ a{  
+	 color:black;
+	 text-decoration: none; 
+	 text-align:left;
+	 background-color:white;
+ } 
+figure {
+	width:350px; 
+	background-color:white;
+	padding:1px;
+	border-radius:2%;
+ }
+.player_one{
+	background-color:rgb(255, 255, 255);  
+	padding:10px ;  
+}
 .player_two{
-	padding: 20px; 
-	border-color: white;
+	background-color:rgb(255, 255, 255); 
+	padding:10px ;  
 }
-
-
 
 
 
